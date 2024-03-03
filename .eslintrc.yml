@@ -4,6 +4,8 @@ extends:
   - plugin:markdown/recommended
 plugins:
   - markdown
+rules:
+  no-var: off
 overrides:
   - files: '**/*.md'
     processor: 'markdown/markdown'
